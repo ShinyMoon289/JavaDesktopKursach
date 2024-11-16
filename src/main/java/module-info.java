@@ -7,7 +7,8 @@ module com.example.kursach2024prog {
 	requires validatorfx;
 	requires org.kordamp.ikonli.javafx;
 	requires eu.hansolo.tilesfx;
+	requires java.security.jgss;
 
-	opens com.example.kursach2024prog to javafx.fxml;
-	exports com.example.kursach2024prog;
+	opens kursach2024 to javafx.fxml;
+	exports kursach2024;
 }

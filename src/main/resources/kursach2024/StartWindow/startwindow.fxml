@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kursach2024.HelloController">
+   <children>
+      <ImageView fitHeight="445.0" fitWidth="486.0" layoutX="-4.0" layoutY="-45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.kym-cdn.com/entries/icons/facebook/000/021/206/hGPgUd4.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.69" />
+         </effect>
+      </ImageView>
+      <Button fx:id="loginButton" layoutX="38.0" layoutY="263.0" mnemonicParsing="false" onAction="#startLoginWindow" prefHeight="49.0" prefWidth="130.0" text="Войти" />
+      <Button fx:id="regButton" layoutX="250.0" layoutY="263.0" mnemonicParsing="false" onAction="#startRegistrationScreen" prefHeight="50.0" prefWidth="152.0" text="Зарегистрироваться" />
+      <Button fx:id="exitButton" layoutX="363.0" layoutY="350.0" mnemonicParsing="false" onAction="#onExit" prefHeight="35.0" prefWidth="58.0" text="Выход" />
+   </children>
+</AnchorPane>
