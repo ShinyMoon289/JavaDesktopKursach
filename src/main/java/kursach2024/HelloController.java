@@ -28,7 +28,7 @@ public class HelloController {
 
 	@FXML
 	public void startRegistrationScreen(ActionEvent event)throws IOException {
-		FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/kursach2024/UserRegistration/userRegistration.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/Windows/UserRegistration/userRegistration.fxml"));
 		Stage stage = new Stage();
 		Scene regScene = new Scene(fxmlLoader.load());
 		stage.setScene(regScene);
